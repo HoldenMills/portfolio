@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $('.menu').smint({
-  'scrollSpeed' : 1000
+  'scrollSpeed' : 800
   });
   $('#projects.img').addEventListener('click', function() {
 
