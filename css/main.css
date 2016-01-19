@@ -92,7 +92,6 @@ a {
 }
 .right a {
   float: right;
-
   display: block;
   color: white;
   text-align: center;
@@ -109,22 +108,22 @@ div.top {
   margin: 0 auto;
 }
 .module.content {
-  background-color: #17999E;
+  background-color: #9aa6b1;
 }
 .module.content h2 {
-  color: #033805;
-  /*color: #053D0A;*/
+  color: #1d3030;
 }
 section.module:last-child {
   margin-bottom: 0;
 }
 section.module h2 {
-  margin-bottom: 40px;
-  font-size: 30px;
+  margin-bottom: 2%;
+  font-size: 45px;
   text-align: center;
 }
 section.module p {
   margin-bottom: 40px;
+  color: #1d3030;
   font-size: 16px;
   font-weight: 300;
 }
@@ -144,7 +143,7 @@ section.module.parallax {
 section.module.parallax h1 {
   color: rgba(255, 196, 26, 0.9);
   font-family: 'Marcellus SC', serif;
-  font-size: 50px;
+  font-size: 90px;
   text-shadow:
     -1.5px -1.5px 0 #000,
     1.5px -1.5px 0 #000,
@@ -153,6 +152,9 @@ section.module.parallax h1 {
   line-height: 600px;
   font-weight: 700;
   text-align: center;
+}
+#main_title {
+  font-size: 110px;
 }
 
 /*----Work Section----*/
@@ -170,6 +172,7 @@ div.work {
     margin: 15px;
 }
 #projects .desc {
+  color: #1d3030;
   font-size: 1.5em;
   padding: 5px;
   text-align: center;
@@ -183,7 +186,7 @@ section.module.parallax-2 {
   /*background: red;*/
 }
 section.module.parallax-3 {
-  background-image: url("https://googledrive.com/host/0B6KECWa9VYOFY0FoRG9FVVVPTHM/DSC_1396 (2).jpg");
+  background-image: url("https://googledrive.com/host/0B6KECWa9VYOFY0FoRG9FVVVPTHM/DSC_1143 (3).jpg");
 }
 section.module.parallax-4 {
   background-image: url("https://googledrive.com/host/0B6KECWa9VYOFY0FoRG9FVVVPTHM/DSC_1396 (2).jpg");
@@ -272,20 +275,42 @@ input {
 }
 
 /*---Responsive Design---*/
-@media all and (min-width: 600px) {
-  section.module h2 {
-    font-size: 42px;
+@media only screen and (max-device-width: 460px) {
+  section.module.parallax h1 {
+    line-height: 300px;
+  }
+  .menu {
+    zoom: 0.85;
+  }
+  .right {
+    margin-right: 15px;
+  }
+  #main_title {
+    font-size: 50px;
+    line-height: 300px;
   }
   section.module p {
-    font-size: 20px;
+    font-size: 15px;
+  }
+  section.module.parallax {
+    height: 300px;
+  }
+  #work_title {
+    font-size: 27px;
+  }
+  #projects .img {
+    zoom: 0.5;
+  }
+  section.module h2 {
+    font-size: 30px;
+  }
+  #about_title {
+    font-size: 50px;
+  }
+  #contact_title {
+    font-size: 48px;
+  }
+  input {
+    width: 50%;
   }
 }
-@media all and (min-width: 960px) {
-  section.module.parallax h1 {
-    font-size: 70px;
-  }
-}
-
-
-
-
