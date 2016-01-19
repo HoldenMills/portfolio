@@ -97,17 +97,16 @@
           <h2>Say Hello!</h2>
           <form action="//formspree.io/mholdenmills@gmail.com"
             method="POST" id="form">
-            <div>
+            <input type="email" name="_replyto" placeholder="Your email" id="email"/>
 
-            <label><input type="email" name="_replyto" placeholder="Your email" id="email"/>
-            </label>
+            <br>
 
-            <label>
-            <textarea name="name" placeholder="Send me a message. Please make sure to include your name so I know who I'm talking to!" id="message"></textarea>
-            </label>
+            <textarea name="name" placeholder="Send me a message. Please make sure to include your name." id="message"></textarea>
             <input type="text" name="_gotcha" style="display:none" />
-            <input type="submit" value="Send" id="send">
-            </div>
+
+            <br>
+
+            <input type="submit" value="Send" id="send"/>
           </form>
         </div>
       </div>
