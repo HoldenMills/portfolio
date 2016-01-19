@@ -47,16 +47,19 @@ table {
   border-spacing: 0;
 }
 
+body {
+}
+
 /*----Nav Bar----*/
 ul.menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0px;
-    overflow: hidden;
-    background-color: #333;
-    top: 0px;
-    width: 100%;
-    position: fixed;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+  top: 0px;
+  width: 100%;
+  position: fixed;
 }
 li {
     float: left;
@@ -84,6 +87,7 @@ div.top {
   margin-top: 0px;
 }
 .container {
+  font-family: 'Goudy Bookletter 1911', serif;
   margin: 0 auto;
 }
 .module.content {
@@ -119,13 +123,8 @@ section.module.parallax {
   background-attachment: fixed;
   background-size: cover;
 }
- /*font-family: 'Bitter', serif;*/
-  /*font-family: 'Libre Baskerville', serif;*/
-  /*font-family: 'Goudy Bookletter 1911', serif;*/
-  /*font-family: 'Copse', serif;*/
 section.module.parallax h1 {
   color: rgba(255, 196, 26, 0.9);
-  /*font-family: 'Alegreya SC', serif;*/
   font-family: 'Marcellus SC', serif;
   font-size: 50px;
   text-shadow:
@@ -140,22 +139,22 @@ section.module.parallax h1 {
 
 /*----Work Section----*/
 div.work {
-  max-height: 400px;
+  max-height: 450px;
+}
+#projects {
+  margin: 0 auto;
+  text-align: center;
 }
 #projects .img {
-    margin: 5px;
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
     display: inline-block;
-}
-#projects:hover {
-    border: 1px solid #777;
-}
-#projects img {
     height: auto;
+    margin: 15px;
 }
-#projects.desc {
-    padding: 15px;
-    text-align: center;
+#projects .desc {
+  font-size: 1.5em;
+  padding: 5px;
+  text-align: center;
 }
 section.module.parallax-1 {
   background-image: url("https://googledrive.com/host/0B6KECWa9VYOFY0FoRG9FVVVPTHM/Copy of DSC_0629 (3).jpg");
