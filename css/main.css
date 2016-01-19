@@ -61,25 +61,43 @@ ul.menu {
   width: 100%;
   position: fixed;
 }
-li {
-    float: left;
-    border-right:1px solid #bbb;
+a {
+  color: white;
 }
-li:last-child {
-    border-right: none;
+.left {
+  float: left;
+  border-right:1px solid #bbb;
 }
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.left:last-child {
+  border-right: none;
 }
-li a:hover:not(.active) {
-    background-color: #111;
+.left a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.left a:hover:not(.active) {
+  background-color: #111;
 }
 .active {
-    background-color: #4CAF50;
+  background-color: #4CAF50;
+}
+.right {
+  margin-right: 25px;
+}
+.right:last-child {
+  border-left: none;
+}
+.right a {
+  float: right;
+
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 8px 5px 8px;
+  margin: auto;
 }
 
 /*----Default Module Styling----*/
