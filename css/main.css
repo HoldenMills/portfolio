@@ -82,7 +82,7 @@ a {
   background-color: #111;
 }
 .active {
-  background-color: #4CAF50;
+  background-color: #008080;
 }
 .right {
   margin-right: 25px;
@@ -104,10 +104,10 @@ div.top {
   margin-top: 0px;
 }
 .container {
-  font-family: 'Goudy Bookletter 1911', serif;
   margin: 0 auto;
 }
 .module.content {
+  font-family: 'Goudy Bookletter 1911', serif;
   background-color: #9aa6b1;
 }
 .module.content h2 {
@@ -196,6 +196,21 @@ section.module.parallax.parallax-1 h1 {
     margin-top: 0px;
     line-height: 500px;
 }
+#info_me {
+  width: 70%;
+  font-size: 1.4em;
+  margin: 0 auto;
+}
+h3 {
+  width: 90%;
+  font-size: 2em;
+  margin: 0 auto;
+}
+#info_skills {
+  font-size: 1.5em;
+  width: 80%;
+  margin: 0 auto;
+}
 
 /*----Contact Section----*/
 form {
@@ -273,14 +288,25 @@ input {
   background-image: linear-gradient(to bottom, #0f6aa3, #a2cce8);
   text-decoration: none;
 }
+footer {
+  padding: 5px;
+  background: black;
+  color: white;
+}
 
 /*---Responsive Design---*/
 @media only screen and (max-device-width: 460px) {
   section.module.parallax h1 {
     line-height: 300px;
   }
-  .menu {
-    zoom: 0.85;
+ .right a {
+    margin: 0px;
+    padding right: 2px;
+    padding-left: 2px;
+  }
+  .left a {
+    padding-left: 3px;
+    padding-right: 3px;
   }
   .right {
     margin-right: 15px;
@@ -306,6 +332,14 @@ input {
   }
   #about_title {
     font-size: 50px;
+  }
+  #info_skills {
+    font-size: 20px;
+    width: 90%;
+  }
+  #info_me {
+    font-size: 18px;
+    width: 85%;
   }
   #contact_title {
     font-size: 48px;
